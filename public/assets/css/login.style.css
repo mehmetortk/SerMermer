@@ -1,0 +1,102 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: white;
+  background: url(https://images2.alphacoders.com/647/647567.jpg);
+  background-size: cover;
+}
+
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(226, 99, 99, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+}
+.submitButton {
+  border-style: none;
+  background-color: transparent;
+  color: white;
+  font-weight: 900;
+  margin-top: 20%;
+  padding: 4% 0;
+  border-radius: 10px;
+  text-align: center;
+}
+.submitButton:hover {
+  background-color: rgb(228, 220, 206);
+  color: black;
+  transition: 0.7s;
+  padding: 4% 10%;
+}
+.login-signin {
+  text-align: center;
+  padding: 10%;
+}
+
+.login-signin a {
+  margin: 0 0 30px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 6% 10%;
+  border-radius: 10px;
+  transition: 0.7s;
+}
+.login-signin a:hover {
+  background-color: rgb(228, 220, 206);
+  color: rgba(226, 99, 99);
+}
+@media only screen and (max-width: 800px) {
+  .login-box {
+    left: 50%;
+  }
+}
+.whatsapp-icon {
+  position: fixed;
+  right: 10px;
+  text-align: right;
+  bottom: 10px;
+}

@@ -1,0 +1,46 @@
+.img-container {
+  width: 30%;
+  margin-right: 20px;
+}
+@media only screen and (min-width: 900px) {
+  .img-container {
+    width: 10%;
+  }
+}
+body a {
+  text-decoration: none;
+  color: black;
+}
+table td {
+  padding: 1%;
+}
+#adet {
+  border: none;
+  background-color: transparent;
+  text-align: right;
+}
+#ürün {
+  display: block;
+}
+.ürün-başlık {
+  margin: 0;
+}
+.fiyat {
+  padding-top: -50px;
+  color: rgb(210, 91, 6);
+  font-weight: 700;
+}
+.reset-button {
+  color: blue;
+}
+#artır-button,
+#azalt-button {
+  float: right;
+}
+button {
+  border: none;
+  background: transparent;
+}
+.ürün-açıklama {
+  width: 100%;
+}
